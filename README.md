@@ -11,6 +11,12 @@ npm run dev
 
 For a production build, run `npm run build`. To serve that build locally, run `npm run preview`.
 
+## Deploy to GitHub Pages
+
+The GitHub Actions workflow in `.github/workflows/deploy.yml` builds and deploys the site when changes are pushed to `main`. In the repository settings, select **Settings → Pages → Build and deployment → GitHub Actions** as the source. The Vite base path is configured for the `vymo-assessment` repository.
+
+After the workflow succeeds, the site will be available at `https://vamshi7941.github.io/vymo-assessment/`.
+
 ## Folder layout
 
 ```text
